@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/mevacupeci/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="[add your bin description]">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <title>Romeo's Recipe</title>
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+  <!-- My kit's code  -->
+  <script src="https://kit.fontawesome.com/71f2fcb8bd.js" crossorigin="anonymous"></script>
+<style id="jsbin-css">
+#header {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;  
+}
+
+}
+#topic {
+  text-align: center;
+  width: 100%;
+  margin: 0 50px;
+  padding-left: 50px;
+ content: "";
+  display: table;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+#pp {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+
+body {
+  background-color: lightpink;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  body {
+    background-color: teal;
+  }
+}
+
+@media screen {
+  body {
+    color: white;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: tomato;
+  }
+}
+
+
+p {
+  font-size: 30px;
+ 
+}
+
+ul {
+  font-size: 30px;
+  background-color:;
+}
+
+ol {
+  font-size: 30px;
+  background-color:;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 50px;
+  font-weight: bold;
+  border-style: double;
+  text-align: center;
+}
+
+h2 {
+  background-color:indigo;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h3 {
+  
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  background-color:indigo;
+  color: white;
+}
+
+h4 {
+  
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  background-color:indigo;
+  color: white;
+}
+
+h5 {
+  
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* https://www.w3schools.com/css */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#steps {
+  width: 50%;
+}
+
+
+
+main {
+  content: "";
+  display: table;
+  clear: both;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0px 25px;
+}
+
+#spacebtn {
+  margin: 20px;
+  width: 50%;
+  
+}
+
+.romeo-o-list {
+  list-style-type: lower-roman;
+}
+
+
+
+.romeo-span {
+  font-style: normal;
+  color: white;
+  margin: 20px;
+}
+
+main article {
+  display: flex;
+}
+
+@media screen and (min-width: 401px) {
+  main article {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  main article {
+    float: none;
+    width: 100%;
+  }
+}
+
+footer {
+  content: "";
+  display: table;
+  clear: both;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px 25px;
+}
+
+.romeo-div {
+  margin-bottom: 10px;
+}
+
+
+.romeo-section {
+ margin: 20px; 
+}
+
+
+#video {
+  text-align: center;
+}
+
+#pics {
+  list-style: none;
+  display: flex;
+  margin: 0 20px;
+ width: 50%;  
+}
+
+#pics p:first-child {
+  margin-right: 20px;
+}
+
+#greetings {
+  margin-left: 20px;
+}
+
+#intro {
+ font-family: cursive;
+  color: white;
+  margin-left: 20px;
+}
+
+#mar {
+  margin-right: 20px;
+}
+
+
+
+@media screen and (max-width: 200px) {
+  .img-size {
+    display: none;
+  }
+}
+
+iframe { 
+    display: block; 
+    width: 100%; 
+    border: none; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+} 
+</style>
+</head>
+<body>
+  <header>
+   <section>
+     <ul id="header">
+      <li><a href="#">Home </a></li>
+       <li><a href="mailto: iambigboiromeo@gmail.com">Contact us </a></li>
+     </ul> 
+   </section>
+  </header>
+  <main>
+  <!--introduction of my self-->
+   <section id="topic">
+    <nav>
+     <p><h2 style=" color: white; background-color:indigo"><strong>RICHARD ROMEO SHAMO TETTEH</strong></h2>
+      <img id="pp" style="border:2px solid indigo;" src="https://i.imgur.com/iXq4y17.jpg" alt="Profile Photo" height="200" width="200">
+     </p>
+    </nav>
+   </section>
+  
+   <nav class="romeo-curle" id="greetings">
+     <p>
+       <h2>Welcome to my <strong>page.</strong>
+      I am happy to see you here.
+     Enjoy your recipe! YUMMIE!!</h2>
+     </p>
+   
+     <p><h5>----*** ROMEO'S RECIPE ***----</h5></p>
+   </nav>
+  
+<!--End of introduction of my self-->
+   <section class="romeo-div">
+       <h1 style="color: lightCoral; background-color:indigo">HOW TO PREPARE GARI SOAKINGS</h1>
+  
+  
+    <section>
+     <p id="intro">Gari can be eaten with very little preparations as it is sold already cooked. It is a grainy  fibrous carbohydrate that is made from dry frying grated cassava(tapioca) in an aluminium pan till it is fully cooked and it starts yellowing. It is eaten across West Africa and ingenious communities in the Amazon.
+        Gari is very filling and as a dry fibre it softens and expands with water. This is why it is popular with secondary school boarding students. I love Gari
+        Soakings because it is the easiest of gari recipes to make and you need less than three minutes preparation time to quench your hungar, all other recipes are eaten coupled with a stew or soup. The water in this recipe can be replaced with other fluids such as milk hence it is called soakings.
+     </p>
+    </section>   
+    <article id="ingredients">
+     <section id="spacebtn">
+       <h2>INGREDIENTS</h2>
+  <!-- unordered list-->
+      <div class="romeo-div" >
+       <ul class="romeo-u-list" >
+     
+        <li> Gari</lii>
+        <li>Sugar</li>
+        <li>Roasted groundnut</li>
+        <li>Water</li>
+        <li>Milk</li>
+        
+       </ul>
+       <h3>TOOLS</h3>
+       <ul class="romeo-u-list" >
+        <li><em>Spoon</em></p></li>
+        <li><em>Bowl</em></li>
+       </ul>
+     
+      </div>
+  <!-- end of unordered list-->
+     </section>
+    
+     <section id="steps">
+       <p><h4>METHOD</h4></p>
+      <div class="romeo-div" id="method">
+  <!-- ordered list-->
+       <ol class="romeo-o-list">
+        <li>Pour amount of <strong>gari</strong> into a <em><strong>bowl.
+           </strong></em>👨‍🍳
+        </li>
+        <li>Add <strong>sugar</strong> to taste.😋
+        <li> Add <strong>roasted groundnut, milk</strong> and <strong>water</strong> to make it light.</li>
+    <!-- inner list-->
+       <ul>
+        <li> <em>when adding, water must be the last ingredient;</em></li>
+        <li> first, add milk🥛</li>
+        <li> then add roasted groundnut🥜</li>
+        <li> lastly, add water</li>
+       </ul>
+    <!-- end of inner list-->
+        <li><em>Stir</em> thoroughly to desolve the <strong>sugar</strong> with <strong><em>spoon</strong></em>🥣</li>
+        <li>Food is <strong>READY.</strong>👍</li>
+       </ol>
+      </div>
+     </section>
+   </article>
+     <!-- pictures of ingredients put together-->
+      
+       <ul id="pics">
+        
+         <p>
+           <li id="mar"><img width="500" height= "350" src="https://i.imgur.com/T6tdXrF.jpg" alt="milk"/></li>
+         </p> 
+         <p>
+           <li> <img width="500" height= "350" src="https://i.imgur.com/siRB1Bj.jpg" alt="Gari,sugar and groundnut"/> </li>
+         </p>
+          
+       </ul>
+  <!--end of pictures-->
+ 
+  <!-- end of ordered list-->
+ 
+    <div class="romeo-div">
+      
+      <p class="romeo-span" id="footer1">After you are done with the preparation methods, your delicious Gari Soakings should be creamy because of the milk in it.
+              It should smell good. Its thickness or lightness will depend on the amount of milk and water added. The taste of Gari Soakings is uhmm! so yummie!
+              THANK ME LATER.
+      </p>
+       <ul id="pics">
+        <li>
+    <!-- pictures of prepared Gari Soakings-->
+          <img class="img-size" src="https://i.imgur.com/psgqMFx.jpg" alt="Gari Soaking1"/>
+        </li>
+      </ul>
+      <p class="romeo-span">What i like about gari soakings is that its affordable, time saving and delicious.</p>
+      <ul id="pics">
+        <li>
+          <img class="img-size" src="https://i.imgur.com/KyotUBt.jpg" alt="Gari Soakings2" height="720" width="1280"/>
+        </li>
+      </ul>
+    </div>
+<!--end of pictures-->
+<!--inserted links-->
+   <section class="romeo-section">
+    <p><h3><strong>For more recipes of Gari Soakings, click the links below</strong></h3></p>
+      <ul >
+        <li><a href="https://ghananation.com/recipe/440849-recipe-prepare-gari-soakings/">Ghananation Recipes</a></li>
+        <li><a href="http://recipes.ghanaculturepolitics.com/2016/02/15/how-to-prepare-gari-soakings/">Ghanacultralpolitics Recipes</a></li>
+        <li><a href="https://www.pulse.com.gh/ece-frontpage/pulse-diy-how-to-prepare-gari-soakings-like-a-pro/1bk2l5g">Pulse Recipes</a></li>
+        <li><a href="https://kuulpeeps.com/2019/08/foodies-up-your-gari-soakings-game-with-these-hacks/">Kuulpeeps Recipes</a></li>
+        <li><a href="https://betumiblog.blogspot.com/2009/09/recipe-16-gari-potowye-soaking.html">Betumi Recipe</a></li>
+   <section id="video">
+    <p><iframe  width="560" height="315" src="https://www.youtube.com/embed/VdyQ-H4IRjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video of Gari Soakings</iframe></p>
+      </ul>
+   </section>
+ </main>
+ </footer>
+   <section>
+    <p><h4><strong>Click <a style="color: blue;" href="https://imgur.com/a/MvkOdDa">Here</a> for other Africa Gari recipes</strong></h4></p>     
+   </section>
+ </footer>
+
+
+<!--end of inserted links-->
+</body>
+</html>
